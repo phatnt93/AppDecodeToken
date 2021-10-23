@@ -20,6 +20,7 @@ if (!$appleDecode) {
     return $this->respError('Invalid apple token');
     
 }
+
 $socialId = $appleDecode['sub'];
 
 $socialEmail = $appleDecode['email'];
