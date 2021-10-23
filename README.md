@@ -1,6 +1,10 @@
 # AppDecodeToken
 AppDecodeToken
 
+Require:
+
+- Install firebase/php-jwt
+
 // $jwt Format
 // {
 //     "code" : "...",
