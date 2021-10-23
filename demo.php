@@ -1,5 +1,14 @@
 <?php 
 
+// $jwt Format
+// {
+//     "code" : "...",
+//     "id_token" : "...",
+//     "nonce" : "...",
+//     "state" : "..."
+// }
+$jwt = 'This is id_token of apple response after login by app on mobile (IOS or android)';
+
 $appleDecodeToken = new AppleDecodeToken();
 $appleDecode = $appleDecodeToken->decode($jwt);
 if (!$appleDecode) {
